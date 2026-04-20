@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Keychain Name Generator — 3D Printable Keychains</title>
+  <meta name="description" content="Create custom 3D printable keychains with text, images, and Google Fonts. Export to STL or 3MF for 3D printing." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+  <!-- Header -->
+  <header id="app-header">
+    <div class="header-left">
+      <div class="logo">
+        <div class="logo-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="url(#logo-gradient)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <defs>
+              <linearGradient id="logo-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#8ec5fc" />
+                <stop offset="100%" stop-color="#e0c3fc" />
+              </linearGradient>
+            </defs>
+            <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/>
+          </svg>
+        </div>
+        <h1>Keychain <span class="gradient-text">Generator</span></h1>
+      </div>
+    </div>
+    <div class="header-right">
+      <span class="badge">3D Print Ready</span>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="app-main">
+    <!-- 3D Viewport -->
+    <div id="viewport">
+      <div id="viewport-overlay">
+        <span class="hint">🖱️ Drag to rotate • Scroll to zoom</span>
+      </div>
+    </div>
+
+    <!-- Control Panel -->
+    <aside id="control-panel">
+      <!-- UI will be injected here by ui.js -->
+    </aside>
+  </main>
+
+  <!-- Toast Container -->
+  <div id="toast-container"></div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

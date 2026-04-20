@@ -1,0 +1,20 @@
+{
+  "name": "keychain-generator",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.0.4"
+  },
+  "dependencies": {
+    "clipper-lib": "^6.4.2",
+    "jszip": "^3.10.1",
+    "three": "^0.184.0",
+    "three-bvh-csg": "^0.0.18"
+  }
+}
